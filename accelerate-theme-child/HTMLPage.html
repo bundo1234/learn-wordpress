@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        
+    </body>
+</html>
+
+<?php    
+               $image = 'http://www.providesupport.com/blog/wp-content/uploads/2013/08/Infographic_Live_chat_business.jpg';
+                // Read image path, convert to base64 encoding
+                $imageData = base64_encode(file_get_contents($image));
+
+                // Format the image SRC:  data:{mime};base64,{data};
+                $src = 'data: '.mime_content_type($image).';base64,'.$imageData;
+
+                // Echo out a sample image
+                echo '<img src="' . $src . '">';
+             ?>
+
+
+
+ header('Content-type: image/jpeg;');
+                $p = "http://www.providesupport.com/blog/wp-content/uploads/2013/08/Infographic_Live_chat_business.jpg";
+                $a = file_get_contents($p);
+                echo $a;
+
+ <?php
+                header('Content-type: image/jpeg;');
+                $p = "http://www.providesupport.com/blog/wp-content/uploads/2013/08/Infographic_Live_chat_business.jpg";
+                $a = file_get_contents($p);
+                echo $a;
+            ?>
+//<figure>
+        // <?php echo wp_get_attachment_image($image_1,'full');?>
+         //</figure>
+<p class="content-p">Here is some copy of what I did. Nothing important to see here. I presented virtually to a conference at Notre Dame University’s John J Reilly Centre for Technology, Society and Values.  The conference, called The Collaboration Conundrum, explored the new collaborations and partnerships between different stakeholders and academia.  My talk was on Working with NGOs, what do to and &amp; what not to do.</p>
