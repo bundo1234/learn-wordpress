@@ -1,0 +1,197 @@
+/*
+ Theme Name:   Accelerate Theme Child
+ Theme URI:    http://localhost:55215/accelerate-theme-child/
+ Description:  Accelerate Child Theme - Accelerate
+ Author:       Anita!
+ Author URI:  http://localhost:55215/
+ Template:     accelerate-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+@import url("../accelerate-theme/style.css");
+
+
+/* Homepage Styles */
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+    
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+    
+}
+
+#masthead nav ul li {
+    float: left;
+    margin: 0 10px;
+}
+
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Case Studies */
+
+article.case-study {
+    margin: 40px 0 0;  
+}
+
+aside.case-study-sidebar {
+    display: block;
+    float:left;
+    width:300px;
+    margin: 0 40px 0 0;  
+}
+
+div.case-study-images {
+    float:left;
+    width:600px;
+}
+
+div.case-study-images img {
+    margin-bottom:50px;
+    border:1px solid #dddddd;
+}
+
+/* Case About */
+div.articl {    border-style: solid;
+    border-color: red;
+}
+
+div.sameline {
+  border: 0.1em solid;
+
+}
+
+
+div.content-right {
+    float:right;
+    width: 600px;
+    clear: right;
+}
+
+div.content-left-img {
+    float:left;
+    width: 200px;
+   clear: left;
+   margin-top: 20px;
+}
+
+div.content-left {
+    float:left;
+    clear: left;
+    width: 600px;
+}
+
+div.content-left1 {
+    margin-top: 5px;
+    margin-left: 100px;
+    width: 400px;
+    float: left;
+}
+
+div.content-right-img {
+    float:right;
+    width: 200px;
+   clear: right;
+
+}
+
+/* STYLING NINJA FORMS - add to your stylesheet and adjust */
+
+/* The full form */
+#ninja_forms_form_1_wrap {
+/* 	background-color: #f89a16;*/
+	padding: 20px;
+    border: 2px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 0px 3px 5px #444;
+/*     margin: 0px 40px 0px 40px; */
+}
+
+/* Fields marked with an * are required text */
+.ninja-forms-required-items {
+	margin-bottom: 15px;
+    
+}
+
+/* All Input fields */
+.ninja-forms-field {
+/*	background-color: #e5e5e7;*/
+	border: 1px solid #333;
+	font-size: 16px;
+/*	border-radius: 5px;*/
+}
+
+/* Name field label and input box. 
+NB! Notice the styling changes on resizing the browser. Fix this in your media queries. This will change from theme to theme.*/
+#ninja_forms_field_1_div_wrap,
+#ninja_forms_field_1 {
+	width: 47%;
+	min-width: 440px;
+	height: 35px;
+	float: left;
+/*	margin-right: 28px;*/
+}
+
+
+/* Email field input */
+#ninja_forms_field_2{
+    width: 460px;
+	height: 35px;	
+	float: right;
+}
+
+/* Message field input */
+#ninja_forms_field_3{
+	
+}
+
+/* The Send button */
+#ninja_forms_field_5 {
+	background-color: #45ac9d;
+	border: 1px solid #333;
+    width: 150px;
+    float: right;
+/*	border-radius: 8px;
+	text-shadow: 2px 1px 3px #000;
+	box-shadow: 0px 3px 5px #444;*/
+}
+
+/* The Send button - hover - mouse over effect */
+#ninja_forms_field_5:hover{
+	background-color: #8d5303;
+	border: 1px solid #ccc;
+    width: 150px;
+    float: right;
+/*	text-shadow: 0px 0px 2px #ccc;
+	box-shadow: 1px 1px 2px #ccc;*/
+}
